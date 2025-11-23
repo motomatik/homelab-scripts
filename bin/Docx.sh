@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+# Description: Conversion de fichier markdown en docx. Utilise un custom reference s'il existe
+# Usage: Docx.sh [-f] fichier.md
+
 set -euo pipefail
 
 f_flag=''
