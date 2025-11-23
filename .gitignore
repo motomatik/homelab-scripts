@@ -1,0 +1,16 @@
+```gitignore
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Données du projet transcription
+projects/mp3-transcriber/data/input/
+projects/mp3-transcriber/data/output/
+
+# Config sensibles
+*.env
+*.env.local
+
+# Divers
+.DS_Store
