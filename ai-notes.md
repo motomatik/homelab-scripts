@@ -2,15 +2,17 @@
 
 ## Contexte
 
-- Repo utilisé pour mon homelab (Proxmox + LXC Debian).
+- Repo utilisé pour mon homelab (Macos, et Proxmox + LXC Debian).
 - `bin/` contient les scripts utilisables en prod sur les LXC.
 - `lab/` est une zone d'expérimentation (OK pour casser des choses).
-- `projects/mp3-transcriber/` contient le pipeline MP3 -> texte -> DOCX.
+- `projects/` est une zone de projets plus complexes
+- `projetcts/mp3-transcriber/` contient le pipeline MP3 -> texte -> DOCX.
 
 ## Comment m'aider
 
 - Proposer des améliorations incrémentales, petits commits.
 - Garder la compatibilité Debian stable (apt avant conteneurs/podman).
+- Garder la compatibilité Macos, et favoriser l'utilisation GPU M4 metal
 - Toujours documenter les nouvelles commandes dans les README.
 - Ne jamais commit de secrets (utiliser .env.example).
 
